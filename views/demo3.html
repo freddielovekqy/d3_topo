@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo3</title>
+    <style>
+        #d3Topo {
+            width: 900px;
+            height: 600px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>给连线添加箭头</li>
+        <li>节点中不显示连线</li>
+        <li>缩放平移</li>
+        <li>给连线添加信息</li>
+    </ul>
+    <span>画连线以及连线上的信息还可以使用path，pathText方式，但是pathText的文字方向会随着连线方向的变化而变化，尚未能找到方法可以固定文字方向</span>
+    <div id="d3Topo"></div>
+</body>
+<script src="../js/d3.js"></script>
+<script src="../js/demo3.js"></script>
+</html>
